@@ -1,0 +1,54 @@
+# Customer Churn Analysis
+
+## Project Overview
+This project analyzes customer data to understand why customers leave a company. It uses Python libraries to clean data, perform analysis, and generate visualizations.
+
+## Objectives
+- Clean and prepare customer data.
+- Calculate the customer churn rate.
+- Analyze churn based on gender, contract, and payment method.
+- Compare monthly charges and customer tenure.
+- Generate graphs and an analysis report.
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Dataset
+IBM Telco Customer Churn Dataset.
+
+## Project Structure
+```text
+Customer-Churn-Analysis/
+│
+├── data/
+│   └── customer_churn.csv
+│
+├── output/
+│   ├── cleaned_data.csv
+│   ├── churn_report.txt
+│   ├── churn_distribution.png
+│   ├── gender_churn.png
+│   ├── contract_churn.png
+│   ├── payment_churn.png
+│   └── monthly_charges.png
+│
+├── main.py
+└── README.md
+```
+
+## How to Run
+1. Install the required libraries:
+   `py -m pip install pandas numpy matplotlib seaborn scikit-learn`
+2. Run the program:
+   `py main.py`
+
+## Expected Outcome
+The project produces a cleaned customer dataset, a churn analysis report, and graphs that help identify customer churn patterns.
+
+## Conclusion
+This analysis helps understand customer churn behavior and identify factors that may influence customer retention.

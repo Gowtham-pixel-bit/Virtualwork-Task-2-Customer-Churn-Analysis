@@ -1,0 +1,30 @@
+CUSTOMER CHURN ANALYSIS REPORT
+==============================
+
+Total Customers: 7043
+Churned Customers: 1869
+Retained Customers: 5174
+Customer Churn Rate: 26.54%
+
+KEY FINDINGS
+------------
+
+Contract-wise Churn:
+Churn             No   Yes
+Contract                  
+Month-to-month  2220  1655
+One year        1307   166
+Two year        1647    48
+
+Payment Method-wise Churn:
+Churn                        No   Yes
+PaymentMethod                        
+Bank transfer (automatic)  1286   258
+Credit card (automatic)    1290   232
+Electronic check           1294  1071
+Mailed check               1304   308
+
+Average Monthly Charges:
+Churn
+No     61.265124
+Yes    74.441332
